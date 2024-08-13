@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUKIDEMIC SCHOOL</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <div class="menu-icon" onclick="toggleMenu()">
+        <img src="menu-icon.png" alt="Menu Icon">
+      </div>
+      <span class="gradient-text">LU</span><span class="black-text">KIDEMIC'S</span><span class="gradient-text">SCHOOL</span>
+    </div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#sobre-nosotros">Sobre Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a href="#inscripcion" class="cta">Inscríbete ahora</a>
+  </header>
+  
+  <div id="accordion-menu" class="accordion-menu">
+    <ul>
+      <li>
+        <a href="#inicio">Inicio</a>
+        <ul class="sub-menu">
+          <li><a href="#inicio-sub1">Subitem 1</a></li>
+          <li><a href="#inicio-sub2">Subitem 2</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#servicios">Servicios</a>
+        <ul class="sub-menu">
+          <li><a href="#servicios-sub1">Subitem 1</a></li>
+          <li><a href="#servicios-sub2">Subitem 2</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <ul class="sub-menu">
+          <li><a href="#sobre-nosotros-sub1">Subitem 1</a></li>
+          <li><a href="#sobre-nosotros-sub2">Subitem 2</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#contacto">Contacto</a>
+        <ul class="sub-menu">
+          <li><a href="#contacto-sub1">Subitem 1</a></li>
+          <li><a href="#contacto-sub2">Subitem 2</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <main>
+    <h1>Transforma tu carrera con Lukidemi's</h1>
+    <p>Educación tech de vanguardia para profesionales del futuro</p>
+    <a href="#cursos" class="explore-btn">Explorar Cursos</a>
+  </main>
+  
+  <section id="roles">
+    <h2 class="section-title">Descubre nuestras áreas de formación</h2>
+    <div class="roles-grid">
+      <div class="role-card">
+        <h3>Product Manager (PM)</h3>
+        <p>Supervisa el desarrollo de productos desde la idea inicial hasta el lanzamiento y asegura que el producto cumpla con las necesidades del mercado.</p>
+      </div>
+      <div class="role-card">
+        <h3>UX/UI Designer</h3>
+        <p>Diseña la experiencia del usuario (UX) y la interfaz de usuario (UI) para asegurar que las aplicaciones sean intuitivas y atractivas.</p>
+      </div>
+      <div class="role-card">
+        <h3>Front-End Developer</h3>
+        <p>Se encarga del desarrollo de la parte visible de una aplicación o sitio web, utilizando tecnologías como HTML, CSS y JavaScript.</p>
+      </div>
+      <div class="role-card">
+        <h3>Back-End Developer</h3>
+        <p>Desarrolla la parte del servidor de una aplicación, gestionando bases de datos, servidores y la lógica de la aplicación.</p>
+      </div>
+      <div class="role-card">
+        <h3>DevOps Engineer</h3>
+        <p>Facilita la colaboración entre el desarrollo y las operaciones, automatizando procesos de despliegue y monitoreo.</p>
+      </div>
+      <div class="role-card">
+        <h3>Data Scientist / Analyst</h3>
+        <p>Analiza grandes volúmenes de datos para proporcionar información valiosa que pueda guiar decisiones empresariales.</p>
+      </div>
+      <div class="role-card">
+        <h3>Quality Assurance (QA) Engineer</h3>
+        <p>Asegura la calidad del software mediante pruebas y la identificación de errores antes del lanzamiento.</p>
+      </div>
+      <div class="role-card">
+        <h3>Cybersecurity Specialist</h3>
+        <p>Protege los sistemas y datos de las amenazas de seguridad cibernética, asegurando la integridad y confidencialidad de la información.</p>
+      </div>
+      <div class="role-card">
+        <h3>Content Strategist</h3>
+        <p>Planifica y gestiona el contenido digital para asegurar que sea relevante y esté alineado con los objetivos de la empresa.</p>
+      </div>
+      <div class="role-card">
+        <h3>Customer Support Specialist</h3>
+        <p>Proporciona asistencia a los clientes, resolviendo problemas y asegurando una experiencia positiva.</p>
+      </div>
+      <div class="role-card">
+        <h3>Marketing Specialist</h3>
+        <p>Desarrolla e implementa estrategias de marketing para promover productos o servicios tecnológicos.</p>
+      </div>
+      <div class="role-card">
+        <h3>Legal Advisor</h3>
+        <p>Asesora sobre las implicaciones legales y regulatorias en el desarrollo y uso de tecnologías.</p>
+      </div>
+      <div class="role-card">
+        <h3>Business Analyst</h3>
+        <p>Examina los procesos de negocio y las necesidades de los usuarios para recomendar soluciones tecnológicas que mejoren la eficiencia y efectividad.</p>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p>© 2024 LUKIDEMIC SCHOOL. Todos los derechos reservados.</p>
+    <a href="#privacidad">Política de privacidad</a> | <a href="#terminos">Términos de servicio</a>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('accordion-menu').classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
